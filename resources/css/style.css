@@ -1,0 +1,56 @@
+
+/* Genesis */
+
+body {
+  font-family: helvetica;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+
+header {
+  background-image: url(../images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25em;
+  padding-top: 2em;
+}
+#header1 {
+  display: flex;
+  background-color: cadetblue;
+  align-items: center;
+  justify-content: space-between;
+}
+#header1 div {
+  display: flex;
+  align-items: center;
+}
+#header1 img {
+  height: 1.3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#header1 span {
+  color: white;
+}
+nav {
+  padding-right: 1em;
+}
+ul li {
+  display: inline-block;
+  padding: 12px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+ul li:hover {
+  background-color: lightgray;
+}
+#menu {
+  display: none;
+}
