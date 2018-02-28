@@ -68,3 +68,33 @@ ul li:hover {
   font-size: 2em;
   max-width: 12em;
 }
+
+/* Services Section */
+
+#services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service {
+  text-align: center;
+  display: block;
+  padding: 3em;
+}
+.service img {
+
+}
+#paper img {
+  height: 4em;
+  padding-bottom: 1em;
+}
+#ruler  img {
+  height: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+#truck img {
+  height: 3em;
+  padding-bottom: 1em;
+  padding-top: 17px;
+}
