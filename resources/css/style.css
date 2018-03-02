@@ -120,3 +120,22 @@ ul li:hover {
   padding: 10px;
   font-weight: bold;
 }
+
+/* Footer */
+
+footer {
+  padding-top: 4em;
+}
+#copyright {
+  padding: 3.5em 0em 3.5em 2em;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+#copyright img {
+  width: 3em;
+  padding-right: 1em;
+}
+#copyright span {
+  font-size: 12px
+}
