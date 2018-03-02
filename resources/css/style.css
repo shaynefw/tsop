@@ -98,3 +98,25 @@ ul li:hover {
   padding-bottom: 1em;
   padding-top: 17px;
 }
+
+/* Info Section */
+
+#info {
+  display: flex;
+  padding-top: 2em;
+}
+.stat-appt {
+  width: 34%;
+  padding-right: 6em;
+}
+.stat-appt p {
+  padding-top: 1em;
+}
+.sa-title {
+  color: white;
+  background-color: cadetblue;
+  width: 50%;
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
