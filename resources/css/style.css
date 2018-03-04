@@ -139,3 +139,151 @@ footer {
 #copyright span {
   font-size: 12px
 }
+
+/* Media Query */
+
+/* Tablet Media Lanscape */
+
+@media only screen and (max-width: 1024px) {
+
+  /* Genesis */
+
+  .container {
+    max-width: none;
+    margin: 0 auto;
+  }
+
+  /* Header Section */
+
+  header {
+    padding-top: 0em;
+  }
+
+  /* Info Section */
+
+  #info {
+    padding-left: 2em;
+  }
+  .stat-appt {
+    width: 33%;
+  }
+}
+
+/* Tablet Media */
+
+@media only screen and (max-width: 768px) {
+
+  /* Genesis */
+
+  /* Header */
+
+  header {
+    height: 12em;
+  }
+
+  /* Navigation */
+
+  ul li {
+    font-size: 13px;
+    padding: 5px;
+  }
+
+  /* Sub Header */
+
+  #header2 {
+    padding-top: 3em;
+    padding-right: 3em;
+  }
+  #header2 div {
+    font-size: 1em;
+  }
+
+  /* Info Section */
+
+  .sa-title {
+    width: 86%;
+  }
+  .stat-appt {
+    padding-right: 3em;
+  }
+}
+
+/* Mobile Media */
+
+@media only screen and (max-width: 480px) {
+
+  /* Genesis */
+
+  /* Header Section */
+
+  header {
+    height: 14em;
+    background-position: unset;
+  }
+  #header1 span {
+    display: none;
+  }
+  #header2 {
+    padding-top: 0px;
+    margin-top: 8em;
+    padding-right: 0em;
+    justify-content: center;
+    background-color: white;
+  }
+  #header2 div {
+    font-size: 1em;
+  }
+
+  /* Navigation */
+
+  ul li {
+    display: none;
+  }
+  #menu {
+    display: block;
+    padding: 1em;
+  }
+
+  /* Service Section */
+
+  #services {
+    flex-direction: column;
+    padding-top: 2em;
+  }
+  .service {
+    padding: 0.5em;
+  }
+
+  /* Info Section */
+
+  #info {
+    padding-left: 0em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .stat-appt {
+  padding-right: 0em;
+  width: 100%;
+  }
+  .stat-appt p {
+    padding: 1em;
+  }
+  .sa-title {
+    width: auto;
+    text-align: center;
+  }
+
+  /* Footer Section */
+
+  #copyright {
+    justify-content: center;
+  }
+  #copyright img {
+    width: 5em;
+  }
+  #copyright span {
+    display: none;
+  }
+}
